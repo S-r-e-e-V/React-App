@@ -1,0 +1,73 @@
+.map {
+    padding: 5%;
+}
+
+.chef {
+    margin-top: 5%;
+    padding:2%;
+    width: 11%;
+    position:absolute;
+    background-color: #f5f5f5;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgb(255, 255, 255);
+}
+
+.foodie {
+    margin-top: 11%;
+    padding:2%;
+    width: 11%;
+    position:absolute;
+    background-color: #f5f5f5;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgb(255, 255, 255);
+}
+
+.menu {
+    margin-top: 17%;
+    padding:2%;
+    width: 11%;
+    position:absolute;
+    background-color: #f5f5f5;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgb(255, 255, 255);
+}
+
+.dish {
+    margin-top: 23%;
+    padding:2%;
+    width: 11%;
+    position:absolute;
+    background-color: #f5f5f5;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgb(255, 255, 255);
+}
+
+.numbers{
+    color: orange;
+    padding-left: 6px;
+}
+
+.doughnutchart{
+    margin-left: 51%;
+    margin-top: 5%;
+    padding: 2%;
+    position: absolute;
+    background-color: #f5f5f5;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgb(255, 255, 255);
+}

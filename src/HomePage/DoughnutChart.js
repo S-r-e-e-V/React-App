@@ -1,5 +1,6 @@
-import React,{useState,useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Doughnut } from 'react-chartjs-2';
+import '../styles/doughnutchart.css'
 
 export default function DoughnutChart() {
 
@@ -10,8 +11,8 @@ export default function DoughnutChart() {
             labels: ['Order delivered', 'Order booked', 'Order cancelled'],
             datasets: [
                 {
-                    data: [10, 20, 30],
-                    backgroundColor:['green','orange','red']
+                    data: [50, 40, 30],
+                    backgroundColor: ['#095D31', '#F3CFCF', '#EC3D3D']
                 }]
         })
     }
@@ -22,15 +23,21 @@ export default function DoughnutChart() {
 
 
     return (
-        <div>
+        <div >
+            ORDERS
             <Doughnut data={doughnut}
+                width={250} height={300}
                 options={{
+                    responsive: true,
                     legend: {
                         display: true,
-                        position:"bottom",
+                        position: "bottom",
+                        align: 'start',
                         labels: {
-                            boxWidth: 10,
-                            fontSize: 10,
+                            boxWidth: 15,
+                            fontSize: 15,
+                            fontColor: 'black',
+                            fontStyle: 'normal',
                             fontColor: 'black'
                         }
                     }
